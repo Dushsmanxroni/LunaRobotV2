@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://telegra.ph/file/7c3c26e0ed938aec91209.jpg"
+LUNA_IMG = "https://telegra.ph/file/3dc1ff159a97857c23e9b.jpg"
 
 PM_START_TEXT = """
-**hey I am Luna Robot** [ㅤ](https://telegra.ph/file/1895e25b7f5e3e7bddfc4.jpg)
+**hey I am Luna Robot** [ㅤ](https://telegra.ph/file/3dc1ff159a97857c23e9b.jpg)
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
 **I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -84,7 +84,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add Luna To Your group ➕", url="http://t.me/lunatapibot?startgroup=true"),
+        InlineKeyboardButton(text="➕ Add 𝐉𝐈𝐍 𝐊𝐀𝐙𝐀𝐌𝐀 To Your group ➕", url="http://t.me/AVIVEKbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="luna_"),
@@ -101,7 +101,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/1895e25b7f5e3e7bddfc4.jpg)
+**Main commands:**  [ㅤ](https://telegra.ph/file/ee9674c38b5263d20bea2.jpg)
 ❂ /start: Starts me! You've probably already used this.
 ❂ /help: Sends this message; I'll tell you more about myself.
 
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/lunaXresso")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/JinKazama_support")]]
             ),
         )
         
@@ -482,12 +482,12 @@ def luna_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Alina", url="https://t.me/rizexx"),
-                    InlineKeyboardButton(text="Nao", url="https://t.me/xgothboi"),
+                    InlineKeyboardButton(text="Alina", url="https://t.me/JinKazama_support"),
+                    InlineKeyboardButton(text="Nao", url="https://t.me/JinKazama_support"),
                  ],
                  [
-                    InlineKeyboardButton(text="Yui", url="https://t.me/Badboyanim"),
-                    InlineKeyboardButton(text="Luna", url="https://t.me/tdrki_1"),
+                    InlineKeyboardButton(text="Yui", url="https://t.me/JinKazama_support"),
+                    InlineKeyboardButton(text="Luna", url="https://t.me/JinKazama_support"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="luna_basichelp"),
@@ -588,7 +588,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/lunaXresso"),
+                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/JinKazama_support"),
                   ]
                 ]
             ),
